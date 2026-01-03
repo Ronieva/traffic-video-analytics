@@ -70,9 +70,6 @@ PYTHONPATH=. python3 scripts/run_video.py \
   --classes 2 3 5 7 \
   --show
 
-## 📦 Outputs
-. outputs/out.json → Per-frame tracking data
-
 ## 📊 Performance (example)
 Model	Resolution	Device	FPS	Latency
 YOLOv8n	960×540	CPU	~20	~45 ms
