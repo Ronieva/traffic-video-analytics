@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+yoloenv/
+.env
+
+# Outputs
+outputs/
+runs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Data / big files
+*.zip
+*.pt
+*.onnx
+*.avi
+*.mp4
+*.mov
