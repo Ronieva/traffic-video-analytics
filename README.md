@@ -55,7 +55,7 @@ Install dependencies:
 pip install ultralytics opencv-python numpy tqdm
 
 ## ▶️ Usage
-#Run on a traffic video and save results
+# Run on a traffic video and save results
 PYTHONPATH=. python3 scripts/run_video.py \
   --source 39031.avi \
   --model yolov8n.pt \
@@ -63,22 +63,22 @@ PYTHONPATH=. python3 scripts/run_video.py \
   --save_video \
   --save_json
 
-#Run with live visualization only
+# Run with live visualization only
 PYTHONPATH=. python3 scripts/run_video.py \
   --source 39031.avi \
   --model yolov8n.pt \
   --classes 2 3 5 7 \
   --show
 
-##📦 Outputs
+## 📦 Outputs
 . outputs/out.json → Per-frame tracking data
 
-##📊 Performance (example)
+## 📊 Performance (example)
 Model	Resolution	Device	FPS	Latency
 YOLOv8n	960×540	CPU	~20	~45 ms
 (Measured on a laptop CPU)
 
-##🚦 Vehicle Counting Logic
+## 🚦 Vehicle Counting Logic
 
 Vehicles are counted when their centroid crosses a virtual line
 
@@ -90,7 +90,7 @@ OUT → bottom to top
 
 A cooldown mechanism prevents double counting
 
-##🔧 Design Principles
+## 🔧 Design Principles
 
 Modular architecture
 
