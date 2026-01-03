@@ -1,3 +1,4 @@
+![Demo](demo.gif)
 
 # Real-Time Traffic Analytics with Object Detection and Tracking
 
