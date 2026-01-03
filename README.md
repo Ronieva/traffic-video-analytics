@@ -1,3 +1,4 @@
+
 # Real-Time Traffic Analytics with Object Detection and Tracking
 
 This project implements a real-time **traffic video analytics pipeline** combining object detection, multi-object tracking and **directional vehicle counting using a virtual line**.  
