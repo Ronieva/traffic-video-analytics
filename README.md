@@ -20,7 +20,7 @@ The system is designed with a strong engineering focus, prioritizing **robustnes
 
 ## 🎥 Demo
 
-![Demo](assets/demo.gif)
+![Demo](demo.gif)
 
 
 ---
