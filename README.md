@@ -20,7 +20,8 @@ The system is designed with a strong engineering focus, prioritizing **robustnes
 
 ## 🎥 Demo
 
-> *(Add a short GIF or MP4 here showing detections, IDs, red virtual line and counters)*
+![Demo](assets/demo.gif)
+
 
 ---
 
